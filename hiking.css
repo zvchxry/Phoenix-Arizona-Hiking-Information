@@ -1,0 +1,291 @@
+ header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
+
+ body { background-color: #c47645; 
+	background-image: linear-gradient(to bottom, #FFFFFF, #c47645);
+	background-position: top right;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif; }
+	
+#contact { font-size: 90%;}
+
+#desktop {display: inline;}
+
+dt {color: #000033;}
+
+footer {font-size: 90%;
+	background-color: #FFFFFF;
+	margin-left: 190px;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", sans-serif; 
+	padding: 20px;
+	margin-top: -19px;
+    left: 280px;
+    text-align: center;
+	clear: both;}
+
+p {text-align: center;}
+
+figure {position: absolute;
+		left: 280px;
+		text-align: center;
+		opacity: .25;}
+
+header {text-align: center;
+		margin: auto;
+		height: 60px;
+		padding-top: 15px;}
+
+input {text-align: center;
+	margin: auto;
+	padding: auto;}
+
+h1 {background-image: url(sunset.jpg);
+	background-position: left;
+	background-repeat: inherit;
+	background-color: #332015;
+	color: #FFFFFF; 
+	line-height: 227%;
+	text-indent: 1em;
+	text-align: center;
+	text-shadow: 8px 8px 8px black; 
+	margin-bottom: 0;
+	margin-top: 0;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	text-align: center;}
+
+h4 {text-align: center;}
+
+h2 {color: #ad4200; 
+	text-decoration: underline;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	text-align: center;
+	text-shadow: .2px .2px .2px black; 
+}
+
+h3 {font-family: Georgia, "Times New Roman", sans-serif; 
+		color: #000033; 
+	text-align: center;}
+
+h6 { color: #000000;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	text-align: center; }
+
+h5 { color: #000000;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	text-align: center; }
+
+#Arizona-State-Flag {height: 700px;
+			background-image: url(Arizona-State-Flag.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			margin-left: 190px; }
+
+select, option, label, textarea, input {display: block;
+				margin: auto;}
+
+label {
+        width: 120px;
+        text-align: right;
+        padding-right: 50px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+
+main { display: block;
+		background-color: #FFFFFF;
+		margin-left: 190px;
+		padding: 1px 20px 20px 30px;
+		margin-bottom: -15px; }
+
+main ul {list-style-image: url(marker.gif);}
+
+nav { font-weight: bold; 
+	padding: 20px;
+	float: left; 
+	width: 160px;
+	}
+
+nav ul {list-style-type: none; 
+	padding-left: 0;
+	margin: 0;
+	font-size: 1.2em; }
+
+nav a:link {color: #000000; }
+nav a:visited {color: #484848; }
+nav a:hover {color: #FFFFFF; }
+
+input, textarea {
+	margin-top: 10px;
+	display: block;
+    }
+
+
+
+a {text-decoration: none;}
+
+video, embed { position: relative;
+				padding-left: 195px; }
+
+#mobile {display: none;}
+
+.valley { color: #AD4200;
+	font-weight: bold; }
+
+#A-Moutain {height: 550px;
+			background-image: url(A-Moutain.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			margin-left: 190px;
+			width: auto; }
+
+#Dixie {height: 550px;
+			background-image: url(Dixie.jpg);
+			background-size: 100% 100%;
+			margin-left: 190px;
+			width: auto;}
+
+#wrapper {margin-left: auto;
+			margin-bottom: 10px;
+			margin-right: auto;
+			background-color: #f4c993;
+			width: 74%;
+			min-width: 960px;
+			max-width: 2048px;
+			box-shadow: 3px 3px 3px #333333;}
+
+#PP {height: 700px;
+			width: auto;
+			background-image: url(PP.jpg);
+			background-size: 100% 100%;
+			margin-left: 190px; }
+
+#FMP {height: 700px;
+			width: auto;
+			background-image: url(FMP.jpg);
+			background-size: 100% 100%;
+			margin-left: 190px; }
+
+#Heat-warning {height: 900px;
+			width: auto;
+			background-image: url(Heat-warning.jpg);
+			background-size: 100% 100%;
+			margin-left: 190px; }
+
+#TPT {height: 900px;
+			width: auto;
+			background-image: url(TPT.jpg);
+			background-size: 100% 100%;
+			margin-left: 190px; }
+
+#Sunset {
+			background-image: url(Sunset.jpg);
+			background-size: 100% 100%;
+			width: 400px;
+			 }
+
+#SM {
+			height: 800px;
+			width: auto;
+			background-image: url(SM.JPG);
+			background-size: 100% 100%;
+			margin-left: 190px; }
+
+object { float: right; padding: 5px; margin: auto; }
+
+
+table { border: 1px solid #484848; 
+		width: 100%;
+		border-spacing: 0;}
+th, td {padding: 5px;
+				border: 1px solid #000000;}
+thead {background-color: #cccccc}
+td {text-align: center;}
+.text {text-align: center;}
+tr:nth-of-type(even) {background-color: #cccccc;}
+input[type="submit"] { margin: auto; }
+
+@media only screen and (max-width: 64em) {
+	 
+	 body { background-color: #c47645; 
+	background-image: linear-gradient(to bottom, #FFFFFF, #c47645);
+	background-position: top right;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif; }
+	
+	#wrapper {min-width: 0;
+			width: auto;
+			box-shadow: none;
+			background-color: #f4c993;
+}
+
+	#A-Moutain, #Arizona-State-Flag, #Heat-warning, #Camelback_Mountain, #PP, #TPT, #Dixie, #wrapper, #Dixie, #FMP, #Sunset, #SM {height: auto;}
+
+	main {margin-left: 0;}
+
+	h6 {display: none;}
+
+	nav {float: none;
+			width: auto;
+			padding: 0.5em;
+			text-align: center;}
+
+	nav li {display: block;
+			margin: 0;
+			border-bottom: 2px solid #330000;}
+
+	footer {margin-left: 0;
+			text-align: center;} }
+
+@media only screen and (max-width: 37.5em) {
+	
+	header {padding-top: 1em;}
+
+	select, option, label, textarea, input {display: block;
+				margin: auto;}
+
+	body {background-color: #f4c993;
+			background-image: linear-gradient(to bottom, #f4c993, #f4c993);
+			margin-bottom: 0;}
+
+	h6 {display: none;}
+
+	label { float: none; 
+		text-align: left; } 
+
+	input[type="submit"] { margin: auto; }
+	
+	main {padding: .1em 1em;
+			font-size: 90%;
+			text-align: center;
+			margin-bottom: 0;}
+
+	h1 {font-size: 1.5em;}
+
+	p {text-align: center;}
+
+	nav {padding: 10px;}
+
+	nav li {display: block;
+			margin: 0;
+			border-bottom: 2px solid #330000;}
+
+	nav a {display: block;}
+
+	#wrapper {min-width: 0;
+			width: auto;
+			margin-left: auto;
+			margin-right: auto;
+			box-shadow: none;
+			background-color: #f4c993;
+			background-image: linear-gradient(to top #f4c993, #f4c993);}
+
+	table, th, tr, thead {width: auto;
+							margin-left: auto;
+							margin-right: auto;}
+
+object { float: right; padding: 5px; margin: auto; width: auto; max-width: 284px; }
+
+video {display: none;}
+
+#A-Moutain, #Arizona-State-Flag, #Heat-warning, #Camelback_Mountain, #PP, #TPT, #Dixie, #wrapper, #Dixie, #FMP, #Suns, #SM {background-image: none; height: 0;};
